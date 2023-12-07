@@ -1,0 +1,232 @@
+<section id="MissingMigrants.html">
+</section>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			h1 {
+				color: white !important;  /* Set text color to white */
+				background: none !important; /* Set background to none (transparent) */
+				padding: 10px;       /* Optional: Add padding for better visibility */
+			}
+		</style>
+		<style>
+            /* Add this CSS in your <style> or in the external CSS file (main.css) */
+            .list-center {
+                text-align: center; /* Center the text within the section */
+            }
+        
+            .list-center h2 {
+                display: block; /* Ensure block-level elements are centered properly */
+            }
+        
+            .list-center ul {
+                margin: 0; /* Remove default margin on the ul */
+                padding: 0; /* Remove default padding on the ul */
+                text-align: left; /* Align the text to the left within the ul */
+                width: 35%; /* Adjust the width as needed */
+                display: inline-block; /* Allow inline display */
+                vertical-align: top; /* Align to the top */
+            }
+        
+            .list-center ul li {
+                list-style: disc; /* Use 'circle' for hollow bullets, or 'square' for square bullets */
+                margin-bottom: 10px; /* Adjust margin as needed */
+            
+            }
+        </style>
+	</head>
+	<body>
+		<h1>Data for good</h1>
+	</body>
+	</html>
+
+<html>
+	<body class="is-preload">
+
+	<!-- Main -->
+	<div id="main">
+
+	<!-- Featured Post -->
+		<article class="post featured">
+		<header class="major">
+		<h2>Missing Migrants Project</h2>
+		<p>Python-coded analyses of the Missing Migrants dataset (IOM) and Tableau visualization.</p>
+		</header>
+		<article>
+		</p>The Missing Migrants Project tracks the deaths and disappearances of migrants, including refugees and asylum-seekers, 
+		who have died or gone missing in the process of migration towards an international destination. 
+		Data is ongoingly collected by the Missing Migrants Project, an initiative implemented by the International Organization for Migration (IOM) since 2014.</p>
+	     
+	</header>
+		<h2> Objective:</h2>
+	    </p>Exploratory and advanced analytics of the Missing Migrants dataset to gather information about the lethal dangers of migration and to educate a public audience interested in a facts-based understanding of migration.</p>
+
+
+	</header>
+	<h2>Key Business Questions:</h2>
+	<article>
+        <section id="Bullet-list-section" class="list-center">
+    <ul>
+            <li>Where are the "hotspots" of migration deaths?</li>
+            <li>How many migrants can be identified in terms of demographics?</li>   
+            <li>Are places with high coverage also the ones who record most deaths?</li>
+    </ul> 
+</section>          
+</article>
+	</p>Find the complete project repository including all Jupyter Notebooks here:</p> 
+	   <!-- Badge Section -->
+	   <section id="github-badge">
+        <a href="https://github.com/SoStrauss/MissingMigrants">
+            <img alt="View on GitHub" src="https://img.shields.io/badge/GitHub-MissingMigrants-black?logo=GitHub">
+        </a>
+    </section>
+
+    </p>Find the Tableau dashboard here:</p> 
+    <!-- Tableau Badge Section -->
+    <section id="tableau-badge">
+        <a href="https://public.tableau.com/app/profile/sophie.strau./viz/MissingMigrantsIOM/Story1">
+            <img alt="View on Tableau" src="https://img.shields.io/badge/View_on-Tableau-blue">
+        </a>
+    </section>
+
+	<br>
+	<br>
+</header>
+<h2>Data</h2>
+
+</p>Open-source dataset from the INTERNATIONAL ORGANIZATION FOR MIGRATION (IOM):</p>  
+ <!-- Data Retrieval Badge Section -->
+ <section id="data-retrieval-badge">
+	<a href="https://missingmigrants.iom.int/data">
+		<img alt="Retrieve Data" src="https://img.shields.io/badge/Retrieve-Data-blue">
+	</a>
+</section>
+<br>
+<br>
+</section>
+</header>
+<h2><a href="#Procedures">Procedures</a></h2>
+<article>
+	<section id="Bullet-list-section" class="list-center">
+<ul>
+		<li>Python:</li>
+		<li>Data wrangling & merging</li>
+		<li>Deriving variables</li>   
+		<li>Un-/Supervised Machine Learning</li>
+		<li>Geospatial and Time Series Analysis</li>
+		<br>
+		<li>Tableau visualization</li>
+</ul> 
+</section>          
+</article>
+<br>
+<br>
+<hr>
+<article>
+	<header>
+		<h2>
+			Exploring the Dataset & Deriving Questions:</h2>
+	</header>
+	<a href="#"><img src="images/TableauMM1.png" alt="" width="350" /></a>
+	<br>
+	<p>Since 2014, at least 59,217 migrants died or disappeared on migration routes.
+		North America, the Mediterranean Sea, and Northern Africa are the hotspots of migration deaths and disappearing; with the US-Mexico border, the Sahara Desert, and central Mediterranean Sea as the deadliest routes.
+		Drowning is among the main causes of death.
+		”Unknown” is a common category across all variables in the dataset – What do we really know?</p>								
+</article>
+<hr>
+<article>
+	<header>
+		<h2>
+			Machine Learning Analyses:</h2>
+	</header>
+	<a href="#"><img src="images/TableauMM2.png" alt="" width="350" /></a>
+	<br>
+	<p>Supervised regression and unsupervised clustering machine learning algorithms indicated that a direct positive relation exists between the number of victims per incident and the number of demographically unidentified victims per incident.</p>									</p>
+</article>
+</article>
+<hr>
+<article>
+	<header>
+		<h2>
+			Geospatial Analysis:</h2>
+	</header>
+	<a href="#"><img src="images/Tableau MM3.png" alt="" width="350" /></a>
+	<br>
+	<p>Pointed out that the region "Mediterranean" includes incidents on European and North African territory - due to the data structure, the limitations of the current project did not allow for further data processing yet. However, since the destination of migrants is Europe, the incidents were attributed to Europe.
+		When "Mediterranean" is added to Europe, the total number of deaths is highest there. However, it is not the region with the best (average/median) coverage.</p>
+</article>
+<hr>
+<article>
+	<header>
+		<h2>
+			Time Series & Forecasting Analysis:</h2>
+	</header>
+	<a href="#"><img src="images/ForecastingMM.png" alt="" width="350" /></a>
+	<br>
+	<p>This plot‘s dashed orange line represents the forecasted values for the future, and the shaded area represents the confidence intervals for the future forecast.
+		The total number of deaths and missing is expected to remain at a high level of approximately 400 deaths and missing per month for the next 20 months.
+		Time Series & Forecasting Analysis indicate that people will continue to migrate in search of a better life, despite deadly risks.
+		Data collection and analysis to overcome the lethality of migration is essential for a fact-based, humanistic policy to combat this tragedy.</p>
+</article>
+
+<h3>
+	Missing Migrants: What we do know is way less than what we don't know. Numbers are most likely an undercount.
+So many incidents go uncounted, so many victims go unidentified. </h3>
+
+
+
+</p>Find the complete project repository including all Jupyter Notebooks here:</p> 
+<!-- Badge Section -->
+<section id="github-badge">
+ <a href="https://github.com/SoStrauss/MissingMigrants">
+	 <img alt="View on GitHub" src="https://img.shields.io/badge/GitHub-MissingMigrants-black?logo=GitHub">
+ </a>
+</section>
+
+</p>Project deliverable: Tableau Visualization</p> 
+<!-- Tableau Badge Section -->
+<section id="tableau-badge">
+ <a href="https://public.tableau.com/app/profile/sophie.strau./viz/MissingMigrantsIOM/Story1">
+	 <img alt="View on Tableau" src="https://img.shields.io/badge/View_on-Tableau-blue">
+ </a>
+<article>
+<br>
+<header>
+	<h2>Future approach/ improvements:</h2>
+</header>
+    <p>Time restrictions limited the data cleaning and wrangling process and thereby, the possibility of variables to analyze in conjunction. To further advance the project, I will refine the data preparation process and extend the analyses.</p>
+</article>
+
+
+
+						<!-- Footer -->
+
+
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Sophie Strauß</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+		
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
